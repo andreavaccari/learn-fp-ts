@@ -1,0 +1,22 @@
+{
+  "name": "learn-fp-ts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "clean": "rimraf node_modules && npm i"
+  },
+  "dependencies": {
+    "fp-ts": "^3.0.0-alpha.17",
+    "rxjs": "^7.3.0",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  }
+}

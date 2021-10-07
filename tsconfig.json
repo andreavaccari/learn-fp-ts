@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    /**
+     * Recommended by TypeScript
+     */
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    // "exactOptionalPropertyTypes": true,
+
+    /**
+     * Custom options
+     */
+    "noEmit": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+    // NOTE: `noUnused*` overlap with @typescript-eslint/no-unused-vars
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+  }
+  // ↓ Based on https://github.com/metachris/typescript-boilerplate/blob/master/tsconfig.json
+  // "include": ["src/**/*.ts"],
+  // "exclude": ["node_modules", "**/*.test.ts"]
+}
